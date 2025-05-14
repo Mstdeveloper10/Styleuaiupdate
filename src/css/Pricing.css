@@ -2,6 +2,7 @@
     margin-top: 2vw;
     padding-left: 4vw;
     padding-right: 4vw;
+    margin-bottom: 10vw;
 }
 
 .pricing_container_1 {
@@ -156,6 +157,7 @@ padding: 0.5vw;
 
     .price_plan_standard {
         padding-top: 32vw;
+        margin-bottom: 11vw;
     }
 
     .pracing_plans_maincontainer {

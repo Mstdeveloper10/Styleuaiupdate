@@ -8,6 +8,7 @@ import Contactus from '../components/Contactus'
 import { Link, Element } from 'react-scroll';
 import Login from '../components/Login'
 import Getstarted from '../components/Getstarted'
+import Footer from '../components/Footer'
 const Home = () => {
     return (
         <>
@@ -153,6 +154,7 @@ const Home = () => {
                     <Contactus />
 
                 </Element>
+                <Footer />
 
             </div>
 

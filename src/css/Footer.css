@@ -1,0 +1,29 @@
+.container{
+    height: 4vw;
+    width: 100%;
+    background: #3B3B3B;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:75vw;
+}
+.text-footer{
+    color: white;
+    font-family: Poppins;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.22px;
+
+}
+
+@media screen and (max-width: 468px) {
+    .container{
+        height: 12vw;
+        gap: 35vw;
+    }
+    .text-footer{
+        font-size: 2.5vw;
+    }
+}

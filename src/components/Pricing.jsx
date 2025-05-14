@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import PricingPlan from './PricingPlan';
 import '../css/Pricing.css';
 import Header from './Header';
+import Footer from './Footer';
 
 function Pricing() {
   const [isMonthly, setIsMonthly] = useState(true);
@@ -39,8 +40,8 @@ function Pricing() {
           <PricingPlan
             title="Standard"
             description="Lorem ipsum dolor sit amet consectetur. Elementum risus pretium eu pellentesque sed."
-            price={isMonthly ? "₹3999" : "₹2222"}
-            duration="per month"
+            price={isMonthly ? "₹3999" : "₹2999"}
+            duration={isMonthly ? "per month" : "per year"}
             features={[
               "100 Credits/Month",
               "Background Remover",
@@ -57,9 +58,9 @@ function Pricing() {
             <PricingPlan
               title="Gold"
               description="Lorem ipsum dolor sit amet consectetur. Elementum risus pretium eu pellentesque sed."
-              price={isMonthly ? "₹11999" : "₹2222"}
+              price={isMonthly ? "₹11999" : "₹9999"}
 
-              duration="per month"
+              duration={isMonthly ? "per month" : "per year"}
               features={[
                 "100 Credits/Month",
                 "All Standard Features",
@@ -89,6 +90,7 @@ function Pricing() {
         </div>
       </div>
     </div>
+    <Footer />
     </>
   );
 }
