@@ -76,7 +76,7 @@ function Header() {
              
               <div className='login_button'>
                 <a
-                  href='https://login.styleuai.com/login'
+                  href='https://login.styleuai.com/'
                   style={{
                     color: 'inherit',
                     textDecoration: 'none',
