@@ -1,15 +1,32 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Header from '../components/Header'
 import '../css/Home.css'
 import H_list from '../components/H_list'
 import Influencers_shoot from '../components/Influencers_shoot'
-import Pricing from '../components/Pricing'
 import Contactus from '../components/Contactus'
-import { Link, Element } from 'react-scroll';
 import Login from '../components/Login'
 import Getstarted from '../components/Getstarted'
 import Footer from '../components/Footer'
+import { Element, scroller } from 'react-scroll';
+import { useLocation, useNavigate } from 'react-router-dom';
 const Home = () => {
+    const location = useLocation();
+    const navigate = useNavigate();
+
+    useEffect(() => {
+        if (location.state?.scrollToContact) {
+            // Scroll after delay
+            setTimeout(() => {
+                scroller.scrollTo('Contactus', {
+                    smooth: true,
+                    duration: 500,
+                });
+            }, 100);
+
+            // Clear the scrollToContact flag to prevent repeated scroll
+            navigate(location.pathname, { replace: true, state: {} });
+        }
+    }, [location, navigate]);
     return (
         <>
             <div className="circle-container circle-layer-1">

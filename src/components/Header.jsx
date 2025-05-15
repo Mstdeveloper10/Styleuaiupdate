@@ -6,12 +6,28 @@ import { ImCross } from "react-icons/im";
 import { Link, Element } from 'react-scroll';
 import Login from './Login';
 import { IoMenu } from "react-icons/io5";
-import { Link as RouterLink } from 'react-router-dom';
+import { Link as RouterLink, useLocation, useNavigate } from 'react-router-dom';
+import { scroller } from 'react-scroll';
 
 
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
+  const location = useLocation();
+  const navigate = useNavigate();
+
+  const handleContactClick = () => {
+    if (location.pathname === '/') {
+      // Scroll directly to Contactus
+      scroller.scrollTo('Contactus', {
+        smooth: true,
+        duration: 500,
+      });
+    } else {
+      // Navigate to home and pass state to scroll after load
+      navigate('/', { state: { scrollToContact: true } });
+    }
+  };
 
   return (
     <div className='header'>
@@ -31,11 +47,11 @@ function Header() {
       <div className='Menu_div'>
         <div onClick={() => setIsOpen(!isOpen)}>
           {isOpen
-            ? <ImCross size="6vw" />
+            ? <ImCross size="5vw" />
 
 
             :
-            <IoMenu size="15vw" />
+            <IoMenu size="11vw" />
 
 
           }
@@ -51,10 +67,10 @@ function Header() {
                 </RouterLink>
               </li>
 
-              <li>
-                <RouterLink to="/contactus" style={{ textDecoration: "none", color: "black" }}>
+              <li onClick={handleContactClick}>
+               
                   Contactus
-                </RouterLink>
+                
               </li>
 
              
