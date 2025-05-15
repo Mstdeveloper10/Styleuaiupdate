@@ -91,27 +91,26 @@
 
 .circle-layer-1 {
     height: 27vw;
-    top: 29.9vw;
+    top: 28.9vw;
 }
 
 .circle-layer-2 {
     height: 22vw;
-    top: 35vw;
+    top: 34vw;
 }
 
 .circle-layer-3 {
     height: 17vw;
-    top: 40vw;
+    top: 39vw;
 }
 
 .circle {
     width: 112vw;
     height: 108vw;
-    flex-shrink: 0;
     border-radius: 112vw;
     align-items: flex-start;
     border: 2.5px solid #EEE;
-    margin-left: -7vw;
+    margin-left: -6vw;
 }
 
 .circle_2 {
@@ -119,7 +118,7 @@
     height: 98vw;
     width: 102vw;
     border-radius: 102vw;
-    margin-left: -2vw;
+    margin-left: -1vw;
 }
 
 .circle_3 {
@@ -127,13 +126,14 @@
     height: 88vw;
     width: 92vw;
     border-radius: 92vw;
-    margin-left: 2.8vw;
+    margin-left: 3.4vw;
 }
 
 .svg-blur-circle {
+    display: none;
     position: absolute;
     top: 37vw;
-    left: 77.1vw;
+    left: 78.5vw;
     height: 30vw;
 }
 
@@ -172,13 +172,15 @@
     .home-container-input {
         width: 70%;
         height: 6vw;
+        padding: 1.8vw;
 
     }
 
     .home-container-input-button {
         font-size: 3vw;
         width: 35%;
-        height: 95%;
+        height: 100%;
+        padding: 0.9vw;
     }
 
     .home-container-input-input {

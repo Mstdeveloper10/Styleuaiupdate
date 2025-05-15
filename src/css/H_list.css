@@ -10,7 +10,7 @@
     gap: 1vw;
     margin: auto;
     position: relative;
-    
+
 }
 
 .h_list_container1 {
@@ -180,7 +180,7 @@
 }
 
 .h_list_container4_span4 {
-    
+
     margin-left: 0.4vw;
     width: 100%;
     height: 100%;
@@ -206,7 +206,7 @@
 }
 
 .h_list_container4_span3 {
-margin-top: 1.5vw;
+    margin-top: 1.5vw;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -219,9 +219,10 @@ margin-top: 1.5vw;
     height: 100%;
     object-fit: contain;
 }
-.h_list_container4_span5{
+
+.h_list_container4_span5 {
     width: 100%;
-    height:80%;
+    height: 80%;
     object-fit: contain;
 }
 
@@ -245,7 +246,7 @@ margin-top: 1.5vw;
 
 .h_list_container5_span1 {
     display: inline-flex;
-    padding:0.5vw;
+    padding: 0.5vw;
     width: 15vw;
     height: 2.1vw;
     gap: 0.9vw;
@@ -343,8 +344,7 @@ margin-top: 1.5vw;
 
 }
 
-@media screen and (max-width: 468px) 
-{
+@media screen and (max-width: 468px) {
 
 
     .h_list {
@@ -358,7 +358,7 @@ margin-top: 1.5vw;
         gap: 2vw;
         margin-left: 1vw;
     }
-    
+
     .h_list_container1 {
         display: inline-flex;
         width: 35vw;
@@ -373,17 +373,17 @@ margin-top: 1.5vw;
         background: #FFF;
         box-shadow: 0px 0px 16px 0px rgba(164, 164, 164, 0.10);
     }
-    
+
     .h_list_container1_span1 {
         width: 100%;
         color: #222;
         font-family: Poppins;
-        font-size: 2.8vw;
+        font-size: 2.5vw;
         font-style: normal;
         font-weight: 500;
         line-height: 28px;
     }
-    
+
     .h_list_container1_span2 {
         background-color: #FA9851;
         height: 18vw;
@@ -392,7 +392,7 @@ margin-top: 1.5vw;
         object-fit: cover;
         margin: auto;
     }
-    
+
     .h_list_container1_image {
         width: 100%;
         height: 100%;
@@ -400,7 +400,7 @@ margin-top: 1.5vw;
         flex-shrink: 0;
         aspect-ratio: 259.00/145.69;
     }
-    
+
     .h_list_container2 {
         display: flex;
         flex-direction: column;
@@ -414,7 +414,7 @@ margin-top: 1.5vw;
         border: 1.5px solid #DBDBDB;
         box-shadow: 0px 0px 16px 0px rgba(164, 164, 164, 0.10);
     }
-    
+
     .h_list_container2_span1 {
         width: 30vw;
         color: #3913C5;
@@ -423,18 +423,18 @@ margin-top: 1.5vw;
         font-weight: 500;
         letter-spacing: 0.24px;
     }
-    
+
     .h_list_container2_span2 {
         width: 35vw;
         border-radius: 6px;
     }
-    
+
     .h_list_container2_image {
         margin-top: 1vw;
         width: 100%;
         object-fit: contain;
     }
-    
+
     .h_list_container3 {
         display: flex;
         flex-direction: column;
@@ -447,14 +447,14 @@ margin-top: 1.5vw;
         border-radius: 10px;
         background: linear-gradient(108deg, #7853FF 0%, #FF8C7C 106.41%);
     }
-    
-    
-    
 
-    .h_list_container4_span5_image{
-height: 110%;
+
+
+
+    .h_list_container4_span5_image {
+        height: 110%;
     }
-    
+
     .h_list_container3_span2 {
         font-size: 2.5vw;
         font-family: Poppins;
@@ -462,7 +462,7 @@ height: 110%;
         color: #FFF;
         margin-left: 1vw;
     }
-    
+
     .h_list_container3_span3 {
         font-size: 2vw;
         font-family: Poppins;
@@ -470,7 +470,7 @@ height: 110%;
         color: #FFF;
         margin-left: 1vw;
     }
-    
+
     .h_list_container4 {
         display: flex;
         width: 35vw;
@@ -484,7 +484,7 @@ height: 110%;
         background: #FFF;
         box-shadow: 0px 0px 16px 0px rgba(164, 164, 164, 0.10);
     }
-    
+
     .h_list_container4_span1 {
         width: 40vw;
         color: #3913C5;
@@ -492,8 +492,8 @@ height: 110%;
         font-weight: 500;
         font-size: 3vw;
     }
-    
-    
+
+
     .h_list_container4_span2 {
         display: flex;
         justify-content: space-between;
@@ -502,15 +502,15 @@ height: 110%;
         padding: 1vw;
         gap: 1vw;
     }
-    
+
     .h_list_container4_span4 {
         align-self: stretch;
         color: #4B4B4B;
         font-family: Poppins;
-        font-size: 2vw;
+        font-size: 1.9vw;
         font-weight: 500;
     }
-    
+
     .h_list_container4_span6_image {
         display: flex;
         justify-content: center;
@@ -520,15 +520,15 @@ height: 110%;
         margin-top: 10vw;
         object-fit: contain;
     }
-    
+
     .h_list_container5 {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        
+
     }
-    
+
     .h_list_container5_span1 {
         display: inline-flex;
         padding: 1vw;
@@ -543,27 +543,27 @@ height: 110%;
         background: #FFF;
         box-shadow: 0px 0px 16px 0px rgba(164, 164, 164, 0.10);
     }
-    
+
     .h_list_container5_span3 {
         font-family: Poppins;
         font-size: 2.5vw;
         font-weight: 500;
         color: #222;
     }
-    
+
     .h_list_container5_span2 {
         display: flex;
         justify-content: center;
         align-items: center;
         object-fit: contain;
     }
-    
+
     .h_list_container5_span2_image {
         width: 100%;
         height: 5vw;
         object-fit: contain;
     }
-    
+
     .h_list_container5_span4 {
         display: flex;
         padding: 1vw;
@@ -575,14 +575,14 @@ height: 110%;
         border: 1.5px solid #DBDBDB;
         box-shadow: 0px 0px 16px 0px rgba(164, 164, 164, 0.10);
     }
-    
+
     .h_list_container5_span4_span1 {
         font-family: Poppins;
         font-size: 2.5vw;
         font-weight: 500;
         color: #222;
     }
-    
+
     .h_list_container5_span4_span2 {
         display: flex;
         margin-top: 3vw;
@@ -591,7 +591,7 @@ height: 110%;
         align-items: center;
         object-fit: contain;
     }
-    
+
     .h_list_container5_span4_span2_span1 {
         display: flex;
         flex-direction: column;
@@ -599,6 +599,7 @@ height: 110%;
         align-items: center;
         height: 8vw;
         width: 8vw;
+        gap: 1.5vw;
         object-fit: contain;
         border-radius: 5px;
         border: 1.5px solid #DBDBDB;
@@ -606,27 +607,32 @@ height: 110%;
         background: #FFF;
         box-shadow: 0px 0px 16px 0px rgba(164, 164, 164, 0.10);
     }
-    
+
     .h_list_container5_span4_span2_span1_span1 {
         font-family: Poppins;
         font-size: 1.4vw;
         font-weight: 500;
         color: #222;
+        line-height: 1.6vw;
         text-align: center;
     }
-    .h_list_container5_span4_span2{
+
+    .h_list_container5_span4_span2 {
         margin-top: 3vw;
     }
-    
+
     .h_list_container5_span4_span2_span1_span2 {
         display: flex;
         justify-content: center;
+        height: 3.5vw;
+        margin-top: 1vw;
+        width: 40%;
     }
 
-    .h_list_container5_span4_span2_span1_span2_image{
-        height: 80%;
+    .h_list_container5_span4_span2_span1_span2_image {
+        height: 100%;
         width: 100%;
     }
-    
-  
+
+
 }

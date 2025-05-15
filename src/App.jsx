@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import "../src/styles.css"
 import Pricing from './components/Pricing';
+import Contactus from './components/Contactus';
 
 function App() {
   return (
@@ -13,7 +14,9 @@ function App() {
         
       </Route>
       <Route path="pricing" element={<Pricing />} ></Route>
+      <Route path="contactus" element={<Contactus />} ></Route>
     </Routes>
+    
   </BrowserRouter>
   )
 }

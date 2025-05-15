@@ -15,7 +15,7 @@
     font-style: normal;
     font-weight: 500;
     cursor: pointer;
-    top: 218vw;
+    top: 219vw;
     left: 45%;
 }
 
@@ -25,7 +25,7 @@ width:2vw;
 }
 @media screen and (max-width: 468px) {
     .Login {
-        top: 632.7vw;
+        top: 627vw;
         left: 38%;
         font-size: 2.15vw;
         width: 20vw;

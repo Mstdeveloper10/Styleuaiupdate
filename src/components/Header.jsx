@@ -51,8 +51,12 @@ function Header() {
                 </RouterLink>
               </li>
 
-              <Link to='Contactus' smooth={true} duration={true} onClick={() => setIsOpen(false)}>
-                <li>Contact</li> </Link>
+              <li>
+                <RouterLink to="/contactus" style={{ textDecoration: "none", color: "black" }}>
+                  Contactus
+                </RouterLink>
+              </li>
+
              
               <div className='login_button'>
                 <a
